@@ -13,12 +13,11 @@
 
 .headerContent {
     background-color: rgb(20, 74, 116);
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 14px 28px;
     min-height: 5vmax;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .headerContent > h1 {

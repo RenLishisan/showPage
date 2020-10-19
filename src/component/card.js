@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Centre.css"
+import "./card.css"
 import 'antd/dist/antd.css';
 
-
-class Centre extends React.Component {
+//商品信息展示卡片
+class Card extends React.Component {
     render() {
         const {item} = this.props
         return (<>
@@ -29,4 +29,4 @@ class Centre extends React.Component {
     }
 }
 
-export default Centre;
+export default Card;

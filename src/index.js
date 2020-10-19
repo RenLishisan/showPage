@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './pages/Header';
 import Page from "./component/Page";
-import './component/Centre.css'
+import './component/card.css'
 
 
 ReactDOM.render(
