@@ -18,6 +18,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: calc(6px + 2vmin) !important;
+
+}
+
+.headerContent > h1 {
+    position: relative;
+    top: 8px;
+    font-size: calc(6px + 4vmin) !important;
     color: white !important;
 }
