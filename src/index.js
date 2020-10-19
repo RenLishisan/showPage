@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './Header';
-import Centre from './Centre'
-import Page from './Page'
+import Header from './pages/Header';
+import Page from "./component/Page";
+import './component/Centre.css'
+
 
 ReactDOM.render(
     <React.StrictMode>
         <Header/>
-        <Centre/>
-        <Page/>
+        <div className="centre">
+            <Page/>
+        </div>
     </React.StrictMode>,
     document.getElementById('root')
 );
