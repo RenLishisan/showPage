@@ -1,19 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
-
 .header {
     text-align: center;
 }
 
 .headerContent {
     background-color: rgb(20, 74, 116);
-    border-radius: 0 0 14px 28px;
+    border-radius: 0 0 14px 14px;
     min-height: 5vmax;
     display: flex;
     justify-content: center;

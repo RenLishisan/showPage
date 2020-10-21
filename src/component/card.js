@@ -1,6 +1,6 @@
 import React from 'react';
-import "./card.css"
-import 'antd/dist/antd.css';
+import "./Card.css"
+// import Img from "../img/compile.png"
 
 //商品信息展示卡片
 class Card extends React.Component {
@@ -15,6 +15,7 @@ class Card extends React.Component {
                                  src="https://gw.alicdn.com/tfs/TB1caflgebviK0jSZFNXXaApXXa-32-16.png"
                                  alt="天猫"/>
                             <dt>{item.name}</dt>
+                            <img src="../img/compile.svg" alt="编辑"/>
                         </div>
                         <dd>商品货号：{item.id}</dd>
                         <dd>商品价格：{item.price}￥</dd>

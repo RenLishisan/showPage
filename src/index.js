@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './pages/Header';
-import Page from "./component/Page";
-import './component/card.css'
+import Page from "./pages/Page";
+import './component/Card.css'
 
 
 ReactDOM.render(
