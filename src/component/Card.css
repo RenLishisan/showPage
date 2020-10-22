@@ -47,6 +47,18 @@
     margin-left: 8px;
 }
 
+.dtHeader > .dtName {
+    width: 218px;
+}
+
+.dtHeader > .bgImg {
+    width: 28px;
+    height: 28px;
+    /*left: px;*/
+    position: relative;
+
+}
+
 .dtHeader > dt {
     overflow: hidden;
     white-space: nowrap;
@@ -72,4 +84,11 @@
     left: 65%;
     top: 105%;
     border-radius: 5px 5px 5px 5px;
+}
+
+.divText {
+    border: 1px solid red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
 }

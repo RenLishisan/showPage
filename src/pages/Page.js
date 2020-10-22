@@ -46,6 +46,7 @@ class Page extends React.Component {
 
         return (<>
                 <div className='search'>
+                    {/*商品展示组件*/}
                     <SearchText x={this.x} dataSource={dataSource}/>
                 </div>
                 {//遍历数组展示
