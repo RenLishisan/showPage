@@ -8,8 +8,7 @@ const {Search} = Input;
 class search extends React.Component {
     onSearch = (value) => {
         let productList = data.filter(array => array.name.match(value));
-        this.props.x(productList)
-
+        this.props.productListUp(productList)
     };
 
     render() {

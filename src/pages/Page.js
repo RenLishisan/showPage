@@ -34,23 +34,30 @@ class Page extends React.Component {
         return dataSource.slice((currentPage - 1) * currentData, currentPage * currentData)
     }
 
-    x = (a) => {
+    up = (productList) => {
         this.setState({
-            dataSource: a,
+            dataSource: productList,
         })
     }
-
+    updateInput = (inputValueName, inputValuePrice, inputValueStock, inputValueNo) => {
+        const {dataSource} = this.state;
+        dataSource[inputValueNo - 1].name = inputValueName;
+        dataSource[inputValueNo - 1].price = inputValuePrice;
+        dataSource[inputValueNo - 1].stock = inputValueStock;
+        this.setState({dataSource});
+    }
 
     render() {
         const {dataSource} = this.state;
 
+
         return (<>
                 <div className='search'>
-                    {/*商品展示组件*/}
-                    <SearchText x={this.x} dataSource={dataSource}/>
+                    {/*搜索组件*/}
+                    <SearchText productListUp={this.up} dataSource={dataSource}/>
                 </div>
                 {//遍历数组展示
-                    this.pageData().map(item => <Card key={item.id} item={item}/>
+                    this.pageData().map(item => <Card key={item.id} updateInput={this.updateInput} item={item}/>
                     )}
                 {/*引用的Ant D分页组件*/}
                 <Pagination
