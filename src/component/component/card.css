@@ -4,9 +4,13 @@
 
 .centre {
     display: flex;
-    position: relative;
+    width: 100% !important;
+    height: 100% !important;
     justify-content: center;
     align-items: center;
+    background-image: url(https://cdn.sstatic.net/Img/product/teams/illo-teams-pricing.svg?v=8afb8ac7c580);
+    background-color: #2b2d6e;
+    position: absolute;
 }
 
 .card {
@@ -78,8 +82,9 @@
 .pagination {
     border: 1px solid rgb(26, 134, 185);
     position: absolute;
-    left: 65%;
-    top: 105%;
+    left: 60%;
+    top: 20px;
+    background: #F5F5F5;
     border-radius: 5px 5px 5px 5px;
 }
 

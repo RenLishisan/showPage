@@ -1,6 +1,11 @@
 import React from 'react';
-import './Header.css';
+import './header.css';
 
+/**
+ * @author: RenLishisan
+ * @description: 该组件为页面最顶部标题组件
+ * @time: 2020/10/23
+ **/
 function Header() {
     return (
         <div className="header">

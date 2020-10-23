@@ -1,10 +1,11 @@
 .header {
     text-align: center;
+    background-color: #2b2d6e;
 }
 
 .headerContent {
     background-color: rgb(20, 74, 116);
-    border-radius: 0 0 14px 14px;
+    border-radius: 0 0 20px 20px;
     min-height: 5vmax;
     display: flex;
     justify-content: center;
